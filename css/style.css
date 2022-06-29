@@ -1,35 +1,42 @@
+body{
+    width:100%; height:100%;
+    background: url(../images/beach-1867436_1920.jpg) no-repeat 0 0;
+    background-attachment: fixed;
+}
 #wrap {
     width: 100%;
-    padding-top: 100vh;
+   
 }
 
 #wrap>div.box {
     width: 100%;
     height: 100vh;
-    background-color: green;
+    background-color: #fff;
 }
 
 
 #wrap>div:nth-child(1) {
-    background: url(../images/beach-1867436_1920.jpg) no-repeat 0 0;
+   
 }
 
 #wrap>div:nth-child(2) {
-    /* background: url(../images/boat-2435056_1920.jpg) no-repeat 0 0; */
-    
+    background: url(../images/the-interior-of-the-gd32635c1a_1920.jpg) no-repeat 0 0;
+    /* background-color: cornflowerblue; */
 }
 
-
 #wrap>div:nth-child(3) {
-    /* background: url(../images/shark-gaa49e1667_1920.jpg) no-repeat 0 0; */
+    /* background-color: rgb(222, 135, 135); */
+    background: url(../images/the-interior-of-the-gd32635c1a_1920.jpg) no-repeat 0 0;
 }
 
 #wrap>div:nth-child(4) {
-    /* background: url(../images/shark-gb614bca4b_1920.jpg) no-repeat 0 0; */
+    /* background-color: rgb(4, 48, 83); */
+    background: url(../images/the-interior-of-the-gd32635c1a_1920.jpg) no-repeat 0 0;
 }
 
 #wrap>div:nth-child(5) {
     /* background-color: rgb(222, 135, 208); */
+    background: url(../images/the-interior-of-the-gd32635c1a_1920.jpg) no-repeat 0 0;
 }
 
 #wrap>div>div {
@@ -43,11 +50,11 @@
 
 /* jquery 문제 */
 #main{
-    position: fixed;
+   
+    /* position: fixed;
     left: 0;
     top: 0;
-    z-index: -1;
-    
+    z-index: -1; */
 }
 
 #main .header {
@@ -60,7 +67,7 @@
     margin: 20px 0 0 0;
     width: 180px;
     height: 80px;
-    color: #716E64;
+    color: #66CEE1;
 }
 
 #main .nav {
@@ -86,7 +93,8 @@
 #main h2 {
     float: left;
     width: 100%;
-    margin: 300px 0 0 0;
+    margin: 270px 0 0 0;
+    color: #666;
     font-size: 50px;
     text-align: center;
     box-sizing: border-box;
@@ -98,15 +106,21 @@
     font-size: 16px;
     color: #D6CBC2;
 }
+#profile img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1250px;
+}
 
 #profile h2 {
     width: 100%;
     height: 90px;
     text-align: center;
-    border: 1px solid #000;
+    border: 1px solid #666;
+    color: #000;
     padding-top: 30px;
     font-size: 50px;
-    color: #fff;
 }
 
 #profile .in_profile {
@@ -129,13 +143,12 @@
 
 #profile .con1 h3 {
     padding-top: 120px;
-    color: #fff;
 }
 
 #profile .con1 p {
+    color: #666;
     padding-top: 10px;
     line-height: 40px;
-    color: #fff;
 }
 
 #profile .con1 .con_c {
@@ -143,7 +156,7 @@
     height: 250px;
     margin: 0 auto;
     margin-top: 100px;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     border-radius: 50%;
 }
 
@@ -156,7 +169,7 @@
     line-height: 40px;
 }
 #profile .con3 p{
-    color: #fff;
+    color: #666;
 }
 
 
@@ -175,6 +188,7 @@
 #profile .con2 p {
     padding-top: 10px;
     line-height: 40px;
+    color: #666;
 }
 
 #q_mn {
@@ -186,7 +200,7 @@
     height: 200px;
     border-radius: 6px;
     font-size: 12px;
-    border: 1px solid aqua;
+    border: 1px solid #666;
     /* background-color: #fff; */
 }
 
@@ -202,7 +216,7 @@
 }
 
 #q_mn ul.nav li a {
-    color: aqua;
+    color: #666;
     font-weight: 800;
 }
 
@@ -234,7 +248,9 @@
     display: flex;
 }
 
-#skill .skill_list {}
+#skill .skill_list h5{
+    color: #000;
+}
 
 #skill .skill_list>li {
     margin-right: 100px;
@@ -247,7 +263,7 @@
 #skill .skill_list>li>div {
     width: 300px;
     height: 50px;
-    border: 1px solid #000;
+    border: 1px solid #666;
     position: relative;
     /* overflow: hidden; */
 }
@@ -255,7 +271,8 @@
 #skill .skill_list>li>div>.in_box {
     width: 10px;
     height: 300px;
-    background-color: #716E64;
+    background-color: #272725;
+    color: #666;
     position: absolute;
     opacity: 0;
     top: 0px;
@@ -321,6 +338,7 @@
 
 #project_1 .account p {
     line-height: 50px;
+    color: #666;
 }
 
 #project_1 .account a {
@@ -387,6 +405,7 @@
 
 #project_2 .account2 p {
     line-height: 50px;
+    color: #666;
 }
 
 #project_2 .account2 a {
@@ -410,4 +429,7 @@
     padding: 50px 0;
     text-align: center;
     line-height: 50px;
+}
+#end .in_end p{
+    color: #666;
 }
