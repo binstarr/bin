@@ -20,7 +20,7 @@ body{
 }
 
 #wrap>div:nth-child(2) {
-    background: url(../images/the-interior-of-the-gd32635c1a_1920.jpg) no-repeat 0 0;
+    background: url(../images/the-interior-of-the-gd32635c1a_1920.jpg) no-repeat 100% 0;
     /* background-color: cornflowerblue; */
 }
 
@@ -152,12 +152,20 @@ body{
 }
 
 #profile .con1 .con_c {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 400px;
     margin: 0 auto;
     margin-top: 100px;
-    border: 1px solid #000;
-    border-radius: 50%;
+    border-radius: 40%;
+}
+#profile .con1 .con_c img{
+    overflow: hidden;
+    border-radius: 40%;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 1192px;
+    left: 402px;
 }
 
 #profile .con3 {
@@ -165,6 +173,7 @@ body{
     height: 310px;
     /* border-right: 1px solid #000; */
     /* border-left: 1px solid #000; */
+    padding-top: 40px;
     text-align: center;
     line-height: 40px;
 }
@@ -343,6 +352,7 @@ body{
 
 #project_1 .account a {
     margin-left: 30px;
+    border: 1px dotted #666;
 }
 
 #project_2 h2 {
@@ -410,6 +420,7 @@ body{
 
 #project_2 .account2 a {
     margin-left: 30px;
+    border: 1px dotted #666;
 }
 
 #end{
@@ -426,10 +437,17 @@ body{
     font-size: 50px;
 }
 #end .in_end{
-    padding: 50px 0;
+    padding: 80px 0;
     text-align: center;
     line-height: 50px;
 }
 #end .in_end p{
     color: #666;
+    font-weight: 600;
+    font-size: 25px;
+}
+#end .in_end a{
+    color: #666;
+    font-weight: 600;
+    font-size: 25px;
 }
