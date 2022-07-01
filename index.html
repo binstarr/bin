@@ -15,7 +15,7 @@
             var menu = $('.nav > li');
             var contents = $('#wrap > div');
 
-             // jquery 문제
+             
             $('.nav> li').click(function (event) {
                 event.preventDefault();
 
@@ -23,11 +23,11 @@
                 var i = tg.index();
                 console.log(i);
                 
-                if(i == 0){
+               
                     var section = $('#wrap > div.box').eq(0);
-                    var tt = section.offset({top:0}).top;
+                    var tt = section.offset().top;
                     $('html, body').stop().animate({ scrollTop: tt });
-                }
+             
 
                 var section = $('#wrap > div.box').eq(i);
                 var tt = section.offset().top;
@@ -238,9 +238,9 @@
             </div>
         </div>
         <!-- 마무리 -->
-        <div id="end">
+        <div id="end" class="box" style="height: 582px;">
             <h2>CONTACT</h2>
-            <div class="in_end" style="height: 250px;">
+            <div class="in_end" style="height: 300px;">
                 <p>PHONE : 010-9432-9080</p>
                 <p>EMAIL : tjdqls2s@naver.com</p>
                 <p>KAKAOTALK : seong9080</p>
